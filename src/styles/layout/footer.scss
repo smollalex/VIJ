@@ -1,0 +1,49 @@
+footer {
+  & nav {
+    order: 3;
+  }
+
+  & .nav-link {
+    color: #dfe3e5;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: .3;
+    transition: .3s;
+
+    margin-left: 15px;
+    @screen sm {
+      margin-left: 25px;
+    }
+
+    &:hover, &:focus {
+      color: #fff;
+      opacity: 1;
+    }
+  }
+
+  & .copyright {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.3;
+    order: 2;
+
+    @screen sm {
+      order: 1;
+      text-align: center;
+    }
+  }
+
+  & img {
+    order: 1;
+    margin-right: 10px;
+
+    @screen sm {
+      order: 2;
+      margin: 0 10px 0 40px;
+    }
+    opacity: 0.3;
+  }
+}

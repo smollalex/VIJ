@@ -5,8 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="src/styles/tailwind.css" rel="stylesheet">
-    <link href="src/styles/custom.css" rel="stylesheet">
+    <link href="./styles/tailwind.css" rel="stylesheet">
+    <link href="./styles/custom.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
@@ -14,13 +14,12 @@
 </head>
 <body>
 <main>
-    <header class="container mx-auto flex justify-between items-center h-48 lg:px-48">
+    <header class="container mx-auto flex justify-between items-center h-24 px-5 md:h-48 md:px-48">
         <a href="">
-            <img class="" src="./src/images/logo_white.png" width="48" height="41">
+            <img class="" src="images/logo_white.png" width="48" height="41">
         </a>
-
         <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
-            <ul class="hidden md:flex">
+            <ul class="flex">
                <li>
                    <a href="#" class="nav-link">Контакты</a>
                </li>
@@ -31,8 +30,8 @@
         </nav>
     </header>
     <section class="container mx-auto flex flex-col items-center">
-        <img class="w-100" src="./src/images/logo.png" width="553" height="187">
-        <div class="grid grid-flow-col grid-cols-2 grid-rows-3 gap-x-10 gap-y-6 w-full lg:w-1/2 my-20">
+        <img class="w-3/4 md:w-max" src="images/logo.png" width="553" height="187">
+        <div class="grid grid-flow-col grid-cols-1 grid-rows-6 md:grid-cols-2 md:grid-rows-3 gap-x-10 gap-y-6 w-3/4 md:w-1/2 my-12 md:my-20 px-5">
             <button type="button" class="button">
                 Чемпионат мира по хоккею
             </button>
@@ -58,9 +57,9 @@
         </div>
     </section>
 
-    <footer class="container mx-auto flex items-center justify-center h-24">
+    <footer class="container mx-auto flex items-center justify-center h-24 px-5">
         <span class="copyright">Video international junior <br/> &#xa9; 2021</span>
-        <img src="./src/images/logo_white.png" alt="" width="48" height="41">
+        <img src="images/logo_white.png" alt="" width="48" height="41">
         <nav>
             <ul class="flex">
                 <li>

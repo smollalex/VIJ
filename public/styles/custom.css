@@ -1,0 +1,119 @@
+/* purgecss start ignore */
+
+header .nav-link {
+    color: #dfe3e5;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 15px
+  }
+
+@media (min-width: 640px) {
+
+header .nav-link {
+      margin-left: 25px
+  }
+    }
+
+header .nav-link:hover, header .nav-link:focus {
+      transition: .3s;
+      color: #ffffff;
+    }
+
+@media (min-width: 768px) {
+
+header .nav-link {
+      font-size: 16px
+  }
+    }
+
+footer nav {
+    order: 3;
+  }
+
+footer .nav-link {
+    color: #dfe3e5;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    opacity: .3;
+    transition: .3s;
+    margin-left: 15px
+  }
+
+@media (min-width: 640px) {
+
+footer .nav-link {
+      margin-left: 25px
+  }
+    }
+
+footer .nav-link:hover, footer .nav-link:focus {
+      color: #fff;
+      opacity: 1;
+    }
+
+footer .copyright {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.3;
+    order: 2
+  }
+
+@media (min-width: 640px) {
+
+footer .copyright {
+      order: 1;
+
+      text-align: center
+  }
+    }
+
+footer img {
+    order: 1;
+    margin-right: 10px;
+  }
+
+@media (min-width: 640px) {
+
+footer img {
+      order: 2;
+
+      margin: 0 10px 0 40px;
+  }
+    }
+
+footer img {
+    opacity: 0.3;
+  }
+
+.button {
+  background-color: #dfe3e5;
+  box-shadow: 0 0 21px rgb(255 255 255/44%);
+  height: 50px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  transition: .3s
+}
+
+.button:hover, .button:focus {
+    box-shadow: 0 0 31px rgb(255 255 255/44%);
+    background-color: #fff;
+  }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('../images/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+
+/* purgecss end ignore */
+
+
+

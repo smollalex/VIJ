@@ -1,0 +1,14 @@
+.button {
+  background-color: #dfe3e5;
+  box-shadow: 0 0 21px rgb(255 255 255/44%);
+  height: 50px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  transition: .3s;
+
+  &:hover, &:focus {
+    box-shadow: 0 0 31px rgb(255 255 255/44%);
+    background-color: #fff;
+  }
+}

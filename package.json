@@ -1,5 +1,31 @@
 {
+  "name": "vij-html",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "build:tailwind": "postcss src/styles/tailwind.scss -o public/styles/tailwind.css --watch",
+    "watch:scss": "postcss src/styles/custom.scss -o public/styles/custom.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smollalex/VIJ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smollalex/VIJ/issues"
+  },
+  "homepage": "https://github.com/smollalex/VIJ#readme",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16"
+  },
   "dependencies": {
-    "tailwindcss": "^2.2.15"
+    "postcss-cli": "^9.0.0",
+    "postcss-import": "^14.0.2",
+    "postcss-nesting": "^8.0.1"
   }
 }
